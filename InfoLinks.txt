@@ -3,3 +3,6 @@ https://meyerweb.com/eric/tools/css/reset/
 https://www.w3schools.com/css/css_dropdowns.asp
 https://stackoverflow.com/questions/18310434/how-to-set-text-size-in-a-button-in-html
 https://stackoverflow.com/questions/11931154/how-to-position-three-divs-in-html-horizontally
+http://foobarblog.net/blog/footer-immer-ganz-unten-22/
+https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/
+https://www.w3schools.com/css/css_navbar_horizontal.asp
