@@ -1,0 +1,5 @@
+Links für Projekt:
+https://meyerweb.com/eric/tools/css/reset/
+https://www.w3schools.com/css/css_dropdowns.asp
+https://stackoverflow.com/questions/18310434/how-to-set-text-size-in-a-button-in-html
+https://stackoverflow.com/questions/11931154/how-to-position-three-divs-in-html-horizontally
