@@ -39,7 +39,7 @@ button{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	padding-right: none;
+	padding-right: 10px;
 	font-size: 20px;
 	border: none;
 	cursor: pointer;
