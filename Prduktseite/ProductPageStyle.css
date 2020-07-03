@@ -3,11 +3,25 @@
     padding: 10px;
 }
 
-.price p {
+.line1 p, .ProductInfoText, .line2 p, .line3 p {
+    float: left;
+}
+
+.ProductInfo {
+    float: right;
+}
+
+.pic {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    width:35%;
+}
+
+.price {
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    float: right;
 }
 
 html, body {
