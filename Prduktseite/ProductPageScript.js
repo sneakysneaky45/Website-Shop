@@ -14,7 +14,7 @@ function setPic() {
     document.getElementById('pic').src = "https://static.zerochan.net/The.Winged.Dragon.of.Ra.full.2004775.jpg";        //hier datenbankzugriff einbinden
 }
 
-function SetStockNumber() {}            //rausfinden wie man options in einer auswahlliste mit js setzt
+function SetStockNumber() { }            //rausfinden wie man options in einer auswahlliste mit js setzt
 
 //alle aus DB holen
 var name = "Name vom Produkt";

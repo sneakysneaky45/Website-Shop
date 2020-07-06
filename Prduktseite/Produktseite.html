@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="ProductPageStyle.css" rel="stylesheet">
-    <title>am besten der Produktname</title>
     <script language="JavaScript" src="ProductPageScript.js" type="text/javascript"></script>
+    <link href="ProductPageStyle.css" rel="stylesheet">
+    <title>Produktname</title>
 </head>
 <body>
     <div id="container">
         <div id="header"></div>
         <div id="body">
+            <div id="upperLine">
+                <div id="leftThing">
+                    <div class="dropdown">
+                        <button class="dropbtn">Men&uuml;</button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="UpperContent">Titel unseres Webshops</div>
+                <div id="rightThing">
+                    <div class="dropdown">
+                        <button class="dropbtn">Mein Bereich</button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div id="content">
                 <div class="line">
-                    <p id="name"><script>SetName();</script></p>
-                    <p id="price"><script>SetPrice();</script></p>
+                    <p id="name">
+                        <script>SetName();</script>
+                    </p>
+                    <p id="price">
+                        <script>SetPrice();</script>
+                    </p>
                 </div>
                 <div id="ProductInfo">
-                    <img id="pic"/>
+                    <img id="pic" />
                     <script>setPic();</script>
                     <div id="ProductInfoText">
                         <div class="line">
                             <p>Beschreibung</p>
-                            <p><script>SetAverage();</script></p>
+                            <p>
+                                <script>SetAverage();</script>
+                            </p>
                         </div>
                         <div class="line">
                             <form action="#">
-                                <label id="stock">Menge: 
+                                <label id="stock">
+                                    Menge:
                                     <select name="stock">
                                         <option>1</option>
                                         <option>2</option>
@@ -37,6 +68,18 @@
                             <button type="button" id="ShoppingCart">Einkaufswagen</button>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div id="comments">
+                <div class="comment">
+                    <p class="commentHead">erster Kommentar - Head</p>
+                    <p class="review">Bewertung</p>
+                    <p class="commentContent">erster Kommentar - Inhalt</p>
+                </div>
+                <div class="comment">
+                    <p class="commentHead">zweiter Kommentar - Head</p>
+                    <p class="review">Bewertung</p>
+                    <p class="commentContent">zweiter Kommentar - Inhalt</p>
                 </div>
             </div>
         </div>
