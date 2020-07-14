@@ -20,6 +20,14 @@
   text-decoration: none;
 }
 
+.linkBottom {
+  color: #999;
+}
+
+.linkBottom:hover {
+  color: #999
+}
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
