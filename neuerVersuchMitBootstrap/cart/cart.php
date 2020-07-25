@@ -58,7 +58,7 @@ function pre_r($array) {
         <div class = "container">
         <?php
 
-        $connect = mysqli_connect('localhost', 'root', 'meinPasswort', 'cart'); 
+        $connect = mysqli_connect('localhost', 'root', 'meinPasswort', 'webshop'); 
         $query = 'SELECT * FROM products ORDER by id ASC'; 
         $result = mysqli_query($connect, $query); 
 
@@ -109,7 +109,7 @@ function pre_r($array) {
                         <td>$<?php echo number_format($product['quantity'] * $product['price'],2);; ?></td>
                         <td>
                             <a href="cart.php?action=delete&id=<?php echo $product['id']; ?>">
-                                div class ="btn-danger">Remove</div>
+                                <div class ="btn-danger">Remove</div>
                             </a>
                         </td>
                     </tr>
